@@ -1,2 +1,4 @@
 # Pwn_2_hero
-For me not u :>
+Its just for me, =)))
+#Update
+i will update when be slack man :>
