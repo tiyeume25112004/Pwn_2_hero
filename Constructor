@@ -32,3 +32,6 @@ mov RAX, 18
 mov RBX, 3
 div RBX ; Divides RAX (18) by RBX (3)
 lấy trên */ dưới
+ret = return
+vd MOV RAX, 5 ret
+CMP để so sánh
