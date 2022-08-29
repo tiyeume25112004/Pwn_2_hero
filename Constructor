@@ -23,3 +23,12 @@ add/sub cộng/trừ 2 giá trị
 MOV RAX ,2
 MOV RBX ,3
 ADD/SUB RAX,RBX : có thể hiểu cộng/trừ giá trị RAX và RBX rồi lưu vô RAX, giống như X=X+1/X=X-1
+CÓ cộng trừ thì phải nhân chia, nó hơi khác vì có khi số sẽ lớn thanh ghi RAX sẽ không thể lưu nổi
+RDX và RAX sẽ ghéo để phân chia lưu kết quả
+mov RAX, 25
+mov RBX, 5
+mul RBX ; Multiplies RAX (25) with RBX (5)
+mov RAX, 18
+mov RBX, 3
+div RBX ; Divides RAX (18) by RBX (3)
+lấy trên */ dưới
