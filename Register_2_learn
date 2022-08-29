@@ -12,4 +12,11 @@ RBP - The base pointer. Holds the address of the base (bottom) of the stack.
 RIP - con trỏ, giống như trong C thôi.
   Không được phép ghi vô con trỏ, chỉ có một số hàm mới tác động đến nó như 'ret' (return)
 
+Sắp xếp thứ bậc
+  ---RAX 64bit
+    |---EAX 32bit
+        |---AX 16bit
+            |---AH--- 8bit
+            |---AL--- 8bit
+
   
