@@ -1,0 +1,3 @@
+MOV : để di chuyển giá trị vô thanh ghi,
+VD: MOV RAX, 5:
+nó đang đưa 5 là giá trị tức thời vô RAX
