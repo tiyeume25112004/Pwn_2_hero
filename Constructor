@@ -8,3 +8,9 @@ mov RBX, 5
 lea RAX, [RBX+1]
 Dòng 1, RAX sẽ chưa địa chỉ/ bộ nhớ đệm của num1
 Dòng 2, RAX được khai báo với cấu trúc là 8 byte
+Dòng 3, con trỏ RBX có giá trị 5.
+Dòng 4, RAX lúc này sẽ là 5+1=6
+PUSH: đẩy dữ liệu lên đầu stack
+VD PUSH RAX
+POP để lụm data trên đầu stack và lưu vô thằng RAX
+POP RAX
