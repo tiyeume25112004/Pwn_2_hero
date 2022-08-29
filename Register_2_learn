@@ -8,3 +8,5 @@ RSI - Known as the source index. Used as the source pointer in string operations
 RDI - Known as the destination index. Used as the destination pointer in string operations.
 RSP - The stack pointer. Holds the address of the top of the stack.
 RBP - The base pointer. Holds the address of the base (bottom) of the stack.
+
+RIP - con trỏ, giống như trong C thôi.
