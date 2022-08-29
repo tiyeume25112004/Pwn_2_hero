@@ -13,4 +13,9 @@ Dòng 4, RAX lúc này sẽ là 5+1=6
 PUSH: đẩy dữ liệu lên đầu stack
 VD PUSH RAX
 POP để lụm data trên đầu stack và lưu vô thằng RAX
-POP RAX
+vd POP RAX
+inc giá trị tăng 1
+dec giá trị giảm 1
+vd 
+MOV RAX ,8
+inc/dec RAX
