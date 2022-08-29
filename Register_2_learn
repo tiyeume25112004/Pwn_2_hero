@@ -1,4 +1,6 @@
-RAX - Known as the accumulator register. Often used to store the return value of a function.
+RAX - lưu trữ giá trị.
+  vd MOV RAX, 5:
+  nó đang lưu giá trị 5 tại thang ghi RAX
 RBX - Sometimes known as the base register, not to be confused with the base pointer. Sometimes used as a base pointer for memory access.
 RDX - Sometimes known as the data register.
 RCX - Sometimes known as the counter register. Used as a loop counter.
