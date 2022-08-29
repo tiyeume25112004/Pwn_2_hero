@@ -1,3 +1,10 @@
 MOV : để di chuyển giá trị vô thanh ghi,
 VD: MOV RAX, 5:
 nó đang đưa 5 là giá trị tức thời vô RAX
+LEA cũng tương tự nhưng nó đọc đến cả vị, LEA tải địa chỉ con trỏ trong khi MOV tải giá trị thực.
+VD lea RAX ,num1
+lea RAX, [struct+8]
+mov RBX, 5
+lea RAX, [RBX+1]
+Dòng 1, RAX sẽ chưa địa chỉ/ bộ nhớ đệm của num1
+Dòng 2, RAX được khai báo với cấu trúc là 8 byte
