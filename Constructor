@@ -19,3 +19,7 @@ dec giá trị giảm 1
 vd 
 MOV RAX ,8
 inc/dec RAX
+add cộng 2 giá trị
+MOV RAX ,2
+MOV RBX ,3
+ADD RAX,RBX : có thể hiểu cộng giá trị RAX và RBX rồi lưu vô RAX, giống như X=X+1
